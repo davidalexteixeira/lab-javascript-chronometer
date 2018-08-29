@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Chronometer</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
 
@@ -19,13 +20,13 @@
 
   <section id="clock">
     <div id="sphere">
-      <span id="minDec" class="number">0</span><span id="minUni" class="number">0</span><span>:</span><span id="secDec" class="number">0</span><span id="secUni" class="number">0</span>
+      <span id="minDec" class="number">00</span><span class="separator">:</span><span id="secDec" class="number">00</span>
 
       <div id="milliseconds">
-        <span id="milDec">0</span><span id="milUni">0</span>
+        <span id="milDec">00</span>
       </div>
 
-      <button id="btnLeft" class="btn start">START</button> <button id="btnRight" class="btn reset">RESET</button>
+      <button id="btnLeft" class="btn start"><i id="startStop" class="fas fa-play-circle fa-2x"></i></button> <button id="btnRight" class="btn reset"><i id="splitReset" class="fas fa-redo fa-2x"></i></button>
     </div>
   </section>
 
